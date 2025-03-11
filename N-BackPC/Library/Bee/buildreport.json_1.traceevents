@@ -1,0 +1,510 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1713170734322820, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170734325120, "dur": 36605, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170734362370, "dur": 378372, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170734740817, "dur": 3677790, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170738418614, "dur": 91770357, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170830189005, "dur": 11000, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170850125513, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170850125929, "dur": 6012, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170850131947, "dur": 591822, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170850723778, "dur": 2727388, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170853451171, "dur": 2527389, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170855978569, "dur": 12352, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170855993093, "dur": 256, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1713170852908087, "dur": 507941, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1713170852909986, "dur": 115358, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1713170853367937, "dur": 12839, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1713170853380783, "dur": 35210, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1713170853382880, "dur": 29501, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1713170853429117, "dur": 4143, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1713170853426982, "dur": 6350, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170855993675, "dur": 1135, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1713170853896756, "dur":42184, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170853938998, "dur":138, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1713170853939226, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1713170853939271, "dur":1301, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1713170853940684, "dur":2304, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170853942988, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855924577, "dur":468, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925045, "dur":96, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925142, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925154, "dur":42, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925196, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925204, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925225, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925231, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925269, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925273, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925290, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925296, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925313, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925319, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925337, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925342, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925361, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925421, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855925446, "dur":4417, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1713170853942833, "dur":190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170853943023, "dur":19498, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170853962563, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1713170853962583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170853970634, "dur":3526, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1713170853974171, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1713170853974545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170853975747, "dur":21585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1713170853997337, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713170853997622, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854004425, "dur":12617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713170854017300, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713170854017556, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854017861, "dur":5299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713170854023431, "dur":86867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1713170854110311, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854110493, "dur":7450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1713170854118075, "dur":5852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854123935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854124103, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854126628, "dur":6005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854132641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854132655, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854135273, "dur":9084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854144365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854144379, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854146973, "dur":4325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854151304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854151319, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854154455, "dur":4191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854158655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854158668, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854161739, "dur":320038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854481785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854481799, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854483983, "dur":4883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854488871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854488881, "dur":39554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854528517, "dur":408445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854936970, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170854936985, "dur":5512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170854942586, "dur":352395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170855294989, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170855295008, "dur":6976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713170855302078, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1713170855302166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170855302177, "dur":5722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1713170855307984, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1713170855308061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170855308072, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1713170855313600, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1713170855314282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713170855314292, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1713170855317124, "dur":607397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170853943117, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170853943119, "dur":19479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170853962600, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1713170853963228, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170853977420, "dur":18231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1713170853995903, "dur":99881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1713170854095800, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854095836, "dur":5160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1713170854101253, "dur":14529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854115792, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854116550, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854119286, "dur":5612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854124906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854124920, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854127894, "dur":5160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854133061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854133074, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854136170, "dur":5772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854141951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854141966, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854144477, "dur":4381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854148867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854148881, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854151659, "dur":4194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854155859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854155869, "dur":6348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854162327, "dur":4842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854167662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854167681, "dur":7431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854175202, "dur":8741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854183949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854183964, "dur":4591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854188677, "dur":7357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854196043, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854196057, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854199019, "dur":7877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854206902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854207001, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854210050, "dur":6497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854216552, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854216570, "dur":3866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854220524, "dur":33189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854253719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854253763, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854256474, "dur":569603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854826085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854826135, "dur":13763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854839981, "dur":75532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854915520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170854915533, "dur":28026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170854943644, "dur":281171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170855224860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170855224875, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170855227731, "dur":688294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170855916036, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713170855916058, "dur":8229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713170855924462, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1713170855924471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170853943410, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170853943412, "dur":19192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170853962607, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1713170853963523, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854000891, "dur":6152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1713170854007299, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1713170854007551, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854008058, "dur":7056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1713170854015364, "dur":68504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1713170854083883, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854083918, "dur":10023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1713170854094236, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1713170854094515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854120759, "dur":9012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1713170854129904, "dur":5925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854135836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854135852, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854138288, "dur":4983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854143279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854143292, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854147034, "dur":4353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854151394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854151406, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854153734, "dur":5133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854158873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854158885, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854162070, "dur":4306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854166383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854166396, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854169267, "dur":3941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854173321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854173336, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854177340, "dur":9394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854186743, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854186769, "dur":4721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854191583, "dur":4451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854196043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854196057, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854199890, "dur":3887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854203783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854203795, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854206757, "dur":4005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854210769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854210781, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854213024, "dur":4656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854217687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854217702, "dur":12297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854230091, "dur":7757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854237854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854237866, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854241199, "dur":5026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854246232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854246245, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854248705, "dur":252577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854501290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854501304, "dur":28669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854530051, "dur":384471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854914530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170854914544, "dur":28248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170854942883, "dur":228910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170855171801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170855171816, "dur":37673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170855209570, "dur":26588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170855236166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170855236181, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170855238688, "dur":4228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170855242924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170855242939, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170855245057, "dur":405094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170855650159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713170855650174, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713170855652858, "dur":271705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170853943716, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170853943717, "dur":18857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170853962577, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1713170853963465, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170853978945, "dur":21096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1713170854000307, "dur":55384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1713170854055706, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170854055741, "dur":26878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1713170854082926, "dur":96247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block.exe" }}
+,{ "pid":12345, "tid":4, "ts":1713170854179180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170854179191, "dur":4231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block.exe" }}
+,{ "pid":12345, "tid":4, "ts":1713170854183513, "dur":4573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854188091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170854188102, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854191789, "dur":12415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854204210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170854204221, "dur":4985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854209299, "dur":7241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854216545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170854216556, "dur":19691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854236349, "dur":5020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854241375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170854241388, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854245195, "dur":31101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854276304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170854276317, "dur":98464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170854374861, "dur":654547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170855029417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170855029430, "dur":3593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170855033107, "dur":1828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170855034943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170855034956, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170855036909, "dur":170834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/RestSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170855207751, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170855207766, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/RestSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170855210467, "dur":98332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170855308805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170855308818, "dur":3075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713170855311972, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1713170855312055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170855312065, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1713170855313965, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1713170855314190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713170855314200, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1713170855316115, "dur":608444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170853944001, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170853944003, "dur":18542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170853962563, "dur":182068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1713170854144637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854148994, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1713170854151052, "dur":4394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854155453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854155464, "dur":4816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854160378, "dur":20214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854180598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854180610, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854183879, "dur":4179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854188064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854188075, "dur":3869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854192034, "dur":8975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854201015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854201029, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854203351, "dur":4602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854207959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854207972, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854210970, "dur":4815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854215793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854215806, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854220358, "dur":7216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854227582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854227597, "dur":9956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854237647, "dur":6999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854244653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854244666, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854247900, "dur":240442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854488350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854488364, "dur":44479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854532921, "dur":6071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854538999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854539014, "dur":19938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854559068, "dur":126758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854685834, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854685850, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854688271, "dur":13769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854702050, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854702075, "dur":6457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854708621, "dur":119254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854827882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170854827896, "dur":20989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170854848994, "dur":431666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170855280668, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170855280682, "dur":3439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713170855284214, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1713170855284328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170855284457, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1713170855287743, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1713170855287840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170855287852, "dur":4928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1713170855292857, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1713170855292929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170855292939, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1713170855295092, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1713170855295305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170855295314, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1713170855297208, "dur":13595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1713170855310841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170855310853, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1713170855312852, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1713170855312939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713170855312949, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1713170855314793, "dur":609781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170853944249, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170853944250, "dur":18351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170853962602, "dur":76923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1713170854039542, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854039617, "dur":15353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1713170854055233, "dur":74941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854130182, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854130593, "dur":20351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854151043, "dur":4290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854155341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854155354, "dur":4874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854160319, "dur":4852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854165179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854165193, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854167725, "dur":6672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854174403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854174413, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854176763, "dur":4019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854180788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854180800, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854183680, "dur":4331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854188018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854188031, "dur":4198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854192308, "dur":3754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854196069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854196081, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854199682, "dur":4094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854203782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854203795, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854206547, "dur":6963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854213516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854213530, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854216132, "dur":5374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854221513, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854221527, "dur":11031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854232660, "dur":4231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854236930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854236963, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854240141, "dur":7100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854247248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854247260, "dur":6229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854253566, "dur":198482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854452058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854452074, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854454923, "dur":2106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854457038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854457052, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854459252, "dur":23057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Text.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854482314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854482324, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Text.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854484503, "dur":228373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854712884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854712899, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854715304, "dur":240102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854955414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170854955429, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170854957982, "dur":267937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170855225927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170855225940, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170855228461, "dur":530248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170855758718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713170855758733, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713170855761521, "dur":163024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170853944534, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170853944536, "dur":18071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170853962608, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1713170853963489, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854007239, "dur":5819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1713170854013303, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1713170854013610, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854015960, "dur":7440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1713170854023662, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1713170854023942, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854023985, "dur":10731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1713170854034983, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1713170854035243, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854035277, "dur":5342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1713170854040906, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1713170854041191, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854041222, "dur":6598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1713170854048082, "dur":4676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854052778, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854055000, "dur":5765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854060998, "dur":6769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1713170854067783, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854067808, "dur":29736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1713170854097804, "dur":53984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854151934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854151986, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854155760, "dur":4407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854160174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854160186, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854162428, "dur":4227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854166661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854166672, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854169069, "dur":4534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854173609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854173620, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854176657, "dur":4189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854180851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854180885, "dur":3128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854184096, "dur":3976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854188077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854188087, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854192434, "dur":5923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854198365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854198379, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854200760, "dur":3858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854204624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854204634, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854207309, "dur":4723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854212039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854212052, "dur":6238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854218378, "dur":4680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854223066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854223079, "dur":8812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854231975, "dur":5083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854237065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854237208, "dur":7798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854245111, "dur":4708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854249826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854249840, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854252019, "dur":184966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854436993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854437007, "dur":5901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854442988, "dur":230329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854673327, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854673346, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854676197, "dur":211382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854887587, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170854887602, "dur":54877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170854942574, "dur":633127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170855575709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713170855575723, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713170855579457, "dur":345086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170853944818, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170853944820, "dur":17758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170853962579, "dur":78049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1713170854040644, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170854040714, "dur":16263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1713170854057207, "dur":127407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854184619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170854184629, "dur":53212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854237945, "dur":4118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854242070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170854242082, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854245289, "dur":113653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854358951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170854358966, "dur":14416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854373537, "dur":300228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854673773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170854673789, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854676848, "dur":254940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854931796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170854931809, "dur":14770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170854946669, "dur":483161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170855429841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713170855429904, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713170855432833, "dur":491731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713170855935620, "dur":7021, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1713170855995190, "dur": 6469, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713170855993009, "dur": 8803, "ph": "X", "name": "Write chrome-trace events", "args": {} },
