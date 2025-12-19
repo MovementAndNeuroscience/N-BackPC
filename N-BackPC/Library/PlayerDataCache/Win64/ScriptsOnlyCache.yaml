@@ -850,7 +850,7 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 082496f7bbc5fdbb948ae2ebb87d7648
+      Hash: 2241630c7112000c9d4045d79d1a2b70
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NBacktrainingSession
@@ -1132,7 +1132,7 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 1042ba2723ff6e7b2c1d871e9dfd01ea
+      Hash: 4ab966cbc95e344aa9d3478c2371678c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneController
@@ -1241,4 +1241,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Unity/BuildsVRAndPC/ActiveSchool/N-BackPC_1Block_Post/N-BackPC1Block.exe
+  playerPath: C:/Unity/BuildsVRAndPC/Playmore 2/N-Back2Block_noRC/N-Back2Block_NoRC.exe
