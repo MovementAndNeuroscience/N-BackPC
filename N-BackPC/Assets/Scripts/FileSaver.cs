@@ -14,17 +14,17 @@ public class FileSaver : MonoBehaviour
     {
         // Creating First row of titles manually..
         string[] rowDataTemp = new string[14];
-        rowDataTemp[0] = "Raw Accuracy Yes answers" + blockNo;
-        rowDataTemp[1] = "Raw Accuracy No answers" + blockNo;
-        rowDataTemp[2] = "Raw Accuracy All answers" + blockNo;
-        rowDataTemp[3] = "Percent Accuracy Yes answers" + blockNo;
-        rowDataTemp[4] = "Percent Accuracy No answers" + blockNo;
-        rowDataTemp[5] = "Percent Accuracy All answers" + blockNo;
-        rowDataTemp[6] = "Mean reaction time correct yes answers" + blockNo;
-        rowDataTemp[7] = "Mean reaction time incorrect yes answers" + blockNo;
-        rowDataTemp[8] = "Mean reaction time correct no answers" + blockNo;
-        rowDataTemp[9] = "Mean reaction time incorrect no answers" + blockNo;
-        rowDataTemp[10] = "Mean reaction time all answers" + blockNo;
+        rowDataTemp[0] = "Raw Accuracy Yes answers " + blockNo;
+        rowDataTemp[1] = "Raw Accuracy No answers " + blockNo;
+        rowDataTemp[2] = "Raw Accuracy All answers " + blockNo;
+        rowDataTemp[3] = "Percent Accuracy Yes answers " + blockNo;
+        rowDataTemp[4] = "Percent Accuracy No answers " + blockNo;
+        rowDataTemp[5] = "Percent Accuracy All answers " + blockNo;
+        rowDataTemp[6] = "Mean reaction time correct yes answers " + blockNo;
+        rowDataTemp[7] = "Mean reaction time incorrect yes answers " + blockNo;
+        rowDataTemp[8] = "Mean reaction time correct no answers " + blockNo;
+        rowDataTemp[9] = "Mean reaction time incorrect no answers " + blockNo;
+        rowDataTemp[10] = "Mean reaction time all answers " + blockNo;
         rowData.Add(rowDataTemp);
 
 
@@ -58,7 +58,7 @@ public class FileSaver : MonoBehaviour
             sb.AppendLine(string.Join(delimiter, output[index]));
 
 
-        string filePath = getPath(subjectId);
+        string filePath = getPath(subjectId, blockNo);
 
         StreamWriter outStream = File.CreateText(filePath);
         outStream.WriteLine(sb);
@@ -66,9 +66,9 @@ public class FileSaver : MonoBehaviour
     }
 
     // Following method is used to retrive the relative path as device platform
-    private string getPath(string SubjectID)
+    private string getPath(string SubjectID, int blockNo)
     {
-        var fileName = SubjectID + "_NBack_PC_Data.csv";
+        var fileName = SubjectID + "_block_" + blockNo + "_NBack_PC_Data.csv";
 #if UNITY_EDITOR
         return Application.dataPath + "/CSV/" + fileName;
 #elif UNITY_ANDROID

@@ -103,7 +103,7 @@ public class ContinueExperiment : MonoBehaviour
 
             }
         }
-        else if (block1.GetComponent<NBacktrainingSession>().allStimGiven && enableBlock2 == true)
+        else if (block2.GetComponent<NBacktrainingSession>().allStimGiven && enableBlock2 == true)
         {
             FinishingTheGameText();
             if (Input.GetKeyDown(KeyCode.Return) && enableBlock2)

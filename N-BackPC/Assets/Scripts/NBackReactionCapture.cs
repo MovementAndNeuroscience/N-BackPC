@@ -113,41 +113,44 @@ public class NBackReactionCapture : MonoBehaviour
 
         meanRTtot = ((meanRTCorrectYes * msCorrectYesAnswers.Count) + (meanRTIncorrectYes * msIncorrectYesAnswers.Count) + (meanRTCorrectNo * msCorrectNoAnswers.Count) + (meanRTIncorrectNo * msIncorrectNoAnswers.Count)) / (totalNoAnswers + totalYesAnswers); 
     }
-    public void SaveAndPublishReactions(string subjectId, int blockNo)
+    public void SaveAndPublishReactions(string subjectId, int blockNo, bool enableREDCap)
     {
         GetComponent<FileSaver>().SaveFile(subjectId, blockNo, rawYesACC,rawNoACC,rawTotACC,
             percentYesACC,percentNoACC,percentTotACC, meanRTCorrectYes, meanRTIncorrectYes,
             meanRTCorrectNo,meanRTIncorrectNo, meanRTtot);
 
-        int id = int.Parse(subjectId);
+        if (enableREDCap)
+        {
+            int id = int.Parse(subjectId);
 
-        if (blockNo == 0)
-        {
-            GetComponent<REDCapCommunicator>().PostRequest(id, rawYesACC, "nback_train_raw_yes_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, rawNoACC, "nback_train_raw_no_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, rawTotACC, "nback_train_raw_tot_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, percentYesACC.ToString(), "nback_train_per_yes_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, percentNoACC.ToString(), "nback_train_per_no_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, percentTotACC.ToString(), "nback_train_per_tot_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTCorrectYes.ToString(), "nback_train_mean_rt_coryes");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTIncorrectYes.ToString(), "nback_train_mean_rt_incyes");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTCorrectNo.ToString(), "nback_train_mean_rt_corno");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTIncorrectNo.ToString(), "nback_train_mean_rt_incno");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTtot.ToString(), "nback_train_mean_rt_all");
-        }
-        else if(blockNo == 1 || blockNo == 2)
-        {
-            GetComponent<REDCapCommunicator>().PostRequest(id, rawYesACC, "nback_block_raw_yes_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, rawNoACC, "nback_block_raw_no_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, rawTotACC, "nback_block_raw_tot_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, percentYesACC.ToString(), "nback_block_per_yes_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, percentNoACC.ToString(), "nback_block_per_no_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, percentTotACC.ToString(), "nback_block_per_tot_acc");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTCorrectYes.ToString(), "nback_block_mean_rt_coryes");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTIncorrectYes.ToString(), "nback_block_mean_rt_incyes");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTCorrectNo.ToString(), "nback_block_mean_rt_corno");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTIncorrectNo.ToString(), "nback_block_mean_rt_incno");
-            GetComponent<REDCapCommunicator>().PostRequest(id, meanRTtot.ToString(), "nback_block_mean_rt_all");
+            if (blockNo == 0)
+            {
+                GetComponent<REDCapCommunicator>().PostRequest(id, rawYesACC, "nback_train_raw_yes_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, rawNoACC, "nback_train_raw_no_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, rawTotACC, "nback_train_raw_tot_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, percentYesACC.ToString(), "nback_train_per_yes_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, percentNoACC.ToString(), "nback_train_per_no_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, percentTotACC.ToString(), "nback_train_per_tot_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTCorrectYes.ToString(), "nback_train_mean_rt_coryes");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTIncorrectYes.ToString(), "nback_train_mean_rt_incyes");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTCorrectNo.ToString(), "nback_train_mean_rt_corno");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTIncorrectNo.ToString(), "nback_train_mean_rt_incno");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTtot.ToString(), "nback_train_mean_rt_all");
+            }
+            else if (blockNo == 1 || blockNo == 2)
+            {
+                GetComponent<REDCapCommunicator>().PostRequest(id, rawYesACC, "nback_block_raw_yes_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, rawNoACC, "nback_block_raw_no_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, rawTotACC, "nback_block_raw_tot_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, percentYesACC.ToString(), "nback_block_per_yes_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, percentNoACC.ToString(), "nback_block_per_no_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, percentTotACC.ToString(), "nback_block_per_tot_acc");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTCorrectYes.ToString(), "nback_block_mean_rt_coryes");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTIncorrectYes.ToString(), "nback_block_mean_rt_incyes");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTCorrectNo.ToString(), "nback_block_mean_rt_corno");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTIncorrectNo.ToString(), "nback_block_mean_rt_incno");
+                GetComponent<REDCapCommunicator>().PostRequest(id, meanRTtot.ToString(), "nback_block_mean_rt_all");
+            }
         }
     }
 

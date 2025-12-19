@@ -374,9 +374,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1249510208831677505, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249510208831677505, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
       propertyPath: dataGameObject
       value: 
       objectReference: {fileID: 2091393508}
+    - target: {fileID: 1249510208847783872, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1249510208847783872, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
       propertyPath: dataGameObject
       value: 
@@ -385,6 +393,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "Pause \nTryk p\xE5 Enter for at forts\xE6tte "
       objectReference: {fileID: 0}
+    - target: {fileID: 1249510209580826279, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
+      propertyPath: block2Included
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1249510209908569552, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
       propertyPath: m_text
       value: "I denne opgave kommer du til at se forskellige symboler p\xE5 sk\xE6rmen
@@ -392,10 +404,22 @@ PrefabInstance:
         det samme som det symbol, der var p\xE5 sk\xE6rmen lige inden.\r\n\nTryk
         p\xE5 Enter for at forts\xE6tte. \r"
       objectReference: {fileID: 0}
+    - target: {fileID: 1249510210078103824, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
+      propertyPath: enableREDCap
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249510210078103827, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1249510210078103827, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
       propertyPath: dataGameObject
       value: 
       objectReference: {fileID: 2091393508}
+    - target: {fileID: 1249510210079922387, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1249510210079922387, guid: 69c5f7bed7f24eb47b91f6241efd0efb, type: 3}
       propertyPath: dataGameObject
       value: 

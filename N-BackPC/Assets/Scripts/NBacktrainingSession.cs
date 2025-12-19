@@ -25,7 +25,8 @@ public class NBacktrainingSession : MonoBehaviour
     private bool recordReaction = true; 
 
     public bool allStimGiven = false;
-    public int blockNo = 0; 
+    public int blockNo = 0;
+    public bool enableREDCap = false;
 
     // Start is called before the first frame update
     void Start()
@@ -36,8 +37,8 @@ public class NBacktrainingSession : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.fixedDeltaTime;
-        grandClock += Time.fixedDeltaTime;
+        timer += Time.deltaTime;
+        grandClock += Time.deltaTime;
 
         if (activatePause == false && stimulifound == false && stimCounter != totalStim)
         {
@@ -105,14 +106,14 @@ public class NBacktrainingSession : MonoBehaviour
             if (blockNo == 1 || blockNo == 0)
             {
                 GetComponent<NBackReactionCapture>().CalculateReactionMatrics(totalStim);
-                GetComponent<NBackReactionCapture>().SaveAndPublishReactions(subjectId, blockNo);
+                GetComponent<NBackReactionCapture>().SaveAndPublishReactions(subjectId, blockNo, enableREDCap);
                 allStimGiven = true;
                 sendfeedback = false;
             }
             if (blockNo == 2)
             {
                 GetComponent<NBackReactionCaptureBlock2>().CalculateReactionMatrics(totalStim);
-                GetComponent<NBackReactionCaptureBlock2>().SaveAndPublishReactions(subjectId, blockNo);
+                GetComponent<NBackReactionCaptureBlock2>().SaveAndPublishReactions(subjectId, blockNo, enableREDCap);
                 allStimGiven = true;
                 sendfeedback = false;
             }

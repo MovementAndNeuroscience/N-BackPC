@@ -23,6 +23,7 @@ public class SceneController : MonoBehaviour
     public GameObject plane;
     public GameObject block1;
     public GameObject block2;
+    public bool enableREDCap;
 
 
 
@@ -69,7 +70,7 @@ public class SceneController : MonoBehaviour
             var textField = subjectIdTextField.GetComponent<TMPro.TMP_InputField>();
             subjectId = textField.text;
 
-            if(int.Parse(subjectId) > 9999)
+            if(int.Parse(subjectId) > 9999 && enableREDCap)
             {
                 var id = GetComponent<REDCapCommunicator>().GetRecordIdFromChildId(subjectId);
                 if (id != null)
@@ -86,7 +87,7 @@ public class SceneController : MonoBehaviour
                     subjectIdTextField.GetComponent<ActiveFieldAtStartUp>().activateField();
                 }
             }
-            else
+            else if (enableREDCap)
             {
                 if (GetComponent<REDCapCommunicator>().ValidateRecordId(subjectId))
                 {
@@ -100,6 +101,13 @@ public class SceneController : MonoBehaviour
                     InsertSubIdText.GetComponent<TMPro.TMP_Text>().text = "Indtast et validt barne ID eller record ID";
                     subjectIdTextField.GetComponent<ActiveFieldAtStartUp>().activateField();
                 }
+            }
+            else if (!enableREDCap)
+            {
+                subjectIdTextField.SetActive(false);
+                InsertSubIdText.SetActive(false);
+                introtext.SetActive(true);
+                enableIntroText = false;
             }
 
             
